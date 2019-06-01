@@ -119,6 +119,36 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
 
@@ -126,6 +156,27 @@ button:focus {
     outline: none;
 }
 
+input:hover { font-weight: 600; }
+input:hover i { margin-right: 20px; }
+
+input:focus {
+    outline: none;
+}
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
 i {
     color: #EB4D4D;
     display: inline-block;
@@ -136,10 +187,11 @@ i {
     margin-top: -4px;
     transition: margin 0.3s;
 }
-
+.rule {top: 95px; }
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+.user-score { top: 531px;}
 
 .dice {
     position: absolute;
